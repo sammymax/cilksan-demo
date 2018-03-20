@@ -9,8 +9,8 @@ ifeq ($(CILKSAN), 1)
   LDFLAGS += -fsanitize=cilk
 endif
 
-TARGET = demo.x
-SRC = demo.cpp
+TARGET = increment.x
+SRC = increment.cpp
 
 .PHONY: all clean
 
