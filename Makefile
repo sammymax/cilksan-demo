@@ -1,6 +1,3 @@
-CILKTOOL_LIB_DIR = '/efs/home/sunphil/tapir/install/lib/clang/6.0.0/lib/linux'
-CILKTOOL_INC_DIR = '/efs/home/sunphil/tapir/install/lib/clang/6.0.0/include'
-
 CC = ~/tapir/src/build/bin/clang++
 LD = $(CPP)
 
