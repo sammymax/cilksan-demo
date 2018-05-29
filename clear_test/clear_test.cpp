@@ -25,6 +25,7 @@ int main(int argc, char** argv) {
 
   int a = cilk_spawn test_func(n);
   int b = cilk_spawn test_func(n + 10);
+  cilk_sync;
 
   std::cout << a << ' ' << b << '\n';
 }
